@@ -124,6 +124,7 @@ export default class Imap {
       this.socket = Socket.open(this.host, this.port, {
         binaryType: 'arraybuffer',
         useSecureTransport: this.secureMode,
+        ws: this.options.ws,
         ca: this.options.ca
       })
 

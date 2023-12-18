@@ -6,7 +6,6 @@ Felix is not actively maintaining this library anymore. But this is the only IMA
 
 The work that's on the horizon is:
 
-* Removing the [tcp-socket shim](https://github.com/emailjs/emailjs-tcp-socket) and use node's `net` and `tls` directly
 * Adding features as per requests
 * Refactor to allow streaming and cut down memory consumption
 * Stay up to date with developments in the IMAP protocol
